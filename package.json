@@ -17,14 +17,15 @@
     "dist"
   ],
   "scripts": {
-    "build": "tsup src/index.ts --format cjs,esm --dts --tsconfig tsconfig.build.json",
+    "build": "vite build",
     "test": "vitest run",
     "test:coverage": "vitest run --coverage",
     "lint": "eslint .",
     "format": "prettier . --check"
   },
   "devDependencies": {
-    "tsup": "^8.5.1",
+    "vite": "^6.0.0",
+    "vite-plugin-dts": "^4.0.0",
     "vitest": "^4.0.18",
     "eslint": "^9.39.2",
     "@eslint/js": "^9.39.2",
@@ -34,6 +35,16 @@
     "eslint-config-prettier": "^9.1.0",
     "globals": "^17.2.0"
   },
+  "homepage": "https://ctrovalidate.vercel.app/api/core",
+  "keywords": ["ctrovalidate", "validation", "form-validation", "javascript", "typescript"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctrotech-tutor/ctrovalidate-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ctrotech-tutor/ctrovalidate-core/issues"
+  },
+  "publishConfig": { "access": "public" },
   "author": "Ctrotech (https://github.com/ctrotech-tutor)",
   "license": "MIT"
 }
