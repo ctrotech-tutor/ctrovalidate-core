@@ -23,6 +23,17 @@
     "lint": "eslint .",
     "format": "prettier . --check"
   },
+  "devDependencies": {
+    "tsup": "^8.5.1",
+    "vitest": "^4.0.18",
+    "eslint": "^9.39.2",
+    "@eslint/js": "^9.39.2",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.54.0",
+    "prettier": "^3.1.1",
+    "eslint-config-prettier": "^9.1.0",
+    "globals": "^17.2.0"
+  },
   "author": "Ctrotech (https://github.com/ctrotech-tutor)",
   "license": "MIT"
 }
