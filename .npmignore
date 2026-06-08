@@ -1,0 +1,6 @@
+src/
+coverage/
+.turbo/
+*.tsbuildinfo
+tsconfig.json
+tsconfig.build.json
